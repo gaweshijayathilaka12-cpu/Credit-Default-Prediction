@@ -14,7 +14,7 @@ st.title("💳 Credit Card Default Prediction")
 st.write("Predict whether a customer may default on their next credit card payment.")
 
 # Load trained model and feature names
-model = joblib.load("credit_default_model.pkl")
+model = joblib.load("credit_default_model_compressed.pkl")
 feature_columns = joblib.load("feature_columns.pkl")
 
 st.subheader("Customer Information")
